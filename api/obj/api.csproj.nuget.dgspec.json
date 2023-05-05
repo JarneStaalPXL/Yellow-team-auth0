@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sam\\Documents\\PXL\\Security Advanced\\2122\\Lab Yellow Team\\api\\api.csproj": {}
+    "D:\\Yellow-team-auth0\\api\\api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sam\\Documents\\PXL\\Security Advanced\\2122\\Lab Yellow Team\\api\\api.csproj": {
+    "D:\\Yellow-team-auth0\\api\\api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sam\\Documents\\PXL\\Security Advanced\\2122\\Lab Yellow Team\\api\\api.csproj",
+        "projectUniqueName": "D:\\Yellow-team-auth0\\api\\api.csproj",
         "projectName": "api",
-        "projectPath": "C:\\Users\\Sam\\Documents\\PXL\\Security Advanced\\2122\\Lab Yellow Team\\api\\api.csproj",
-        "packagesPath": "C:\\Users\\Sam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sam\\Documents\\PXL\\Security Advanced\\2122\\Lab Yellow Team\\api\\obj\\",
+        "projectPath": "D:\\Yellow-team-auth0\\api\\api.csproj",
+        "packagesPath": "C:\\Users\\jarne\\.nuget\\packages\\",
+        "outputPath": "D:\\Yellow-team-auth0\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Sam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jarne\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -37,9 +37,13 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
+            "Auth0.AspNetCore.Authentication": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
             "CsvHelper": {
               "target": "Package",
               "version": "[27.2.1, )"
@@ -59,7 +63,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -71,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

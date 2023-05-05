@@ -14,6 +14,7 @@ namespace api.Controllers
 {
     [Route("api/seatholders")]
     [ApiController]
+     [Authorize("ApiScope")]
     public class SeatholderController : ControllerBase
     {
         //In memory db, lazy init
@@ -24,6 +25,7 @@ namespace api.Controllers
         }
 
         [HttpGet]
+        
         public List<Seatholder> Get()
         {
             if(seatholders == null)
